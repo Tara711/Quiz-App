@@ -1,38 +1,42 @@
+body {
+  background-color: rgb(134, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .App {
   text-align: center;
+  height: 500px;
+  width: 600px;
+  background-color: rgb(41, 140, 180);
+  border-radius: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+  padding: 1.2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quiz-list {
+  font-size: 1.2rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 2rem;
+}
+.quiz-list li {
+  padding-inline: 1rem;
+}
+.quiz-p {
+  font-size: 1.4rem;
+  background-color: black;
   color: white;
+  padding: 0.5rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-color: red;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 12px;
 }
